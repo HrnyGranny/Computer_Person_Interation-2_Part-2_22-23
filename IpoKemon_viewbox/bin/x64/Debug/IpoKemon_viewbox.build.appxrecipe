@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-C8DIADC</Machine>
+    <WindowsUser>aitor</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>681f5ad4-a844-4c77-834d-be0535ab2683</PackageIdentityName>
+    <PackageIdentityPublisher>CN=aitor</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\IpoKemon_viewbox.exe">
+      <PackagePath>entrypoint\IpoKemon_viewbox.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Bola_sombra.png">
+      <PackagePath>Assets\Bola_sombra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\ChooseYourPokemonStyle.png">
+      <PackagePath>Assets\ChooseYourPokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Energia.png">
+      <PackagePath>Assets\Energia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\FightPokemonStyle.png">
+      <PackagePath>Assets\FightPokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\AronFondoBotones.png">
+      <PackagePath>Assets\AronFondoBotones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\aronVictoria.png">
+      <PackagePath>Assets\aronVictoria.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\charmanderVictoria.png">
+      <PackagePath>Assets\charmanderVictoria.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\CombatePokemonStyle.png">
+      <PackagePath>Assets\CombatePokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\DosJugadores.png">
+      <PackagePath>Assets\DosJugadores.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\ElegirPokemonStyle.png">
+      <PackagePath>Assets\ElegirPokemonStyle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\escudoFuego.png">
+      <PackagePath>Assets\escudoFuego.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\flecha-atras.png">
+      <PackagePath>Assets\flecha-atras.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\FondoBotonesGengar.png">
+      <PackagePath>Assets\FondoBotonesGengar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\fondo_combate.png">
+      <PackagePath>Assets\fondo_combate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\gengarVictoria.png">
+      <PackagePath>Assets\gengarVictoria.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\iconoAplicacion.png">
+      <PackagePath>Assets\iconoAplicacion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\iconoEspaña.png">
+      <PackagePath>Assets\iconoEspaña.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\iconoInglaterra.png">
+      <PackagePath>Assets\iconoInglaterra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PocionEnergia.png">
+      <PackagePath>Assets\PocionEnergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PocionVida.png">
+      <PackagePath>Assets\PocionVida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PokeAyuda.png">
+      <PackagePath>Assets\PokeAyuda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Pokedex.png">
+      <PackagePath>Assets\Pokedex.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Pokedex_logo.png">
+      <PackagePath>Assets\Pokedex_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PokeHelp.png">
+      <PackagePath>Assets\PokeHelp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Vida.png">
+      <PackagePath>Assets\Vida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Volver_ico.png">
+      <PackagePath>Assets\Volver_ico.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\titulo-ipokemon.png">
+      <PackagePath>Assets\titulo-ipokemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\UnJugador.png">
+      <PackagePath>Assets\UnJugador.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Zarpa.png">
+      <PackagePath>Assets\Zarpa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\cancionCombate.mp3">
+      <PackagePath>Assets\cancionCombate.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\combateIA.mp3">
+      <PackagePath>Assets\combateIA.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\FondoPokeballs.jpg">
+      <PackagePath>Assets\FondoPokeballs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Fondo_Pokeball.jpg">
+      <PackagePath>Assets\Fondo_Pokeball.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\fondo-inicio.jpg">
+      <PackagePath>Assets\fondo-inicio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\fondo-combate4.jpg">
+      <PackagePath>Assets\fondo-combate4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\FondoBotonesCharmander.jpg">
+      <PackagePath>Assets\FondoBotonesCharmander.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\Imagen fondo.jpg">
+      <PackagePath>Assets\Imagen fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\bolaFuego.gif">
+      <PackagePath>Assets\bolaFuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\fuego.gif">
+      <PackagePath>Assets\fuego.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\llama-03.gif">
+      <PackagePath>Assets\llama-03.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\sonidoAron.ogg">
+      <PackagePath>Assets\sonidoAron.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\sonidoCharmander.ogg">
+      <PackagePath>Assets\sonidoCharmander.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\sonidoGengar.ogg">
+      <PackagePath>Assets\sonidoGengar.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\video-fondo-inicio.mp4">
+      <PackagePath>Assets\video-fondo-inicio.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PokemonHollow.ttf">
+      <PackagePath>Assets\PokemonHollow.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\Assets\PokemonSolid.ttf">
+      <PackagePath>Assets\PokemonSolid.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\IpoKemon_viewbox.xr.xml">
+      <PackagePath>IpoKemon_viewbox.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AronCU_NoViewBox.xbf">
+      <PackagePath>AronCU_NoViewBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AronCU_ViewBox.xbf">
+      <PackagePath>AronCU_ViewBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Ayuda.xbf">
+      <PackagePath>Ayuda.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AyudaAron.xbf">
+      <PackagePath>AyudaAron.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AyudaCharmander.xbf">
+      <PackagePath>AyudaCharmander.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\AyudaGengar.xbf">
+      <PackagePath>AyudaGengar.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Combate.xbf">
+      <PackagePath>Combate.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Configuración.xbf">
+      <PackagePath>Configuración.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\cuadroBotonesAron.xbf">
+      <PackagePath>cuadroBotonesAron.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\cuadroBotonesCharmander.xbf">
+      <PackagePath>cuadroBotonesCharmander.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\cuadroBotonesGengar.xbf">
+      <PackagePath>cuadroBotonesGengar.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\gengarUC-namespace.xbf">
+      <PackagePath>gengarUC-namespace.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\gengarUC-sinBarras.xbf">
+      <PackagePath>gengarUC-sinBarras.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\gengarUC.xbf">
+      <PackagePath>gengarUC.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Inicio.xbf">
+      <PackagePath>Inicio.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\PokeData.xbf">
+      <PackagePath>PokeData.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\PaginaPrueba.xbf">
+      <PackagePath>PaginaPrueba.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\PokeDex.xbf">
+      <PackagePath>PokeDex.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\ratingUC.xbf">
+      <PackagePath>ratingUC.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\SelectorPokemon.xbf">
+      <PackagePath>SelectorPokemon.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\ucCharmander-namespace.xbf">
+      <PackagePath>ucCharmander-namespace.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\ucCharmander-sinBarras.xbf">
+      <PackagePath>ucCharmander-sinBarras.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\ucCharmander.xbf">
+      <PackagePath>ucCharmander.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aitor\OneDrive\Desktop\Nueva carpeta %282%29\IpoKemon-main\IpoKemon_viewbox\bin\x64\Debug\Core\IpoKemon_viewbox.exe">
+      <PackagePath>IpoKemon_viewbox.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2304.12003.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2304.12003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2304.12003.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2304.12003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2304.12003.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2304.12003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2304.12003.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2304.12003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2304.12003.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2304.12003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aitor\.nuget\packages\microsoft.ui.xaml\2.8.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
